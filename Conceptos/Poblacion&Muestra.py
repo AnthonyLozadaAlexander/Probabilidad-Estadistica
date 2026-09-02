@@ -1,9 +1,7 @@
 import random
 
-
 def extrarMuestra(poblacion: list[int], tamanio: int) -> list[int]:
     return random.sample(poblacion, tamanio)
-
 
 # poblacion: porcentaje de uso de cpu
 poblacion_cpu: list[int] = [45, 55, 89, 21, 12, 99, 40, 60]
